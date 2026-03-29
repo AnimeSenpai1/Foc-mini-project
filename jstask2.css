@@ -1,0 +1,26 @@
+#sq{
+    
+
+    display: flex;
+    gap:10px;
+
+}
+#sq1{
+    width:50px;
+    height:50px;
+    color:blue;
+    border:10px solid yellow;
+}
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+#button{
+    
+  position: fixed;   
+  top: 20px;         
+  right: 20px;       
+}
+#pre{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

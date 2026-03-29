@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Loader</title>
+
+    <style>
+
+        /* Step 1: Circular div with thick border */
+        .loader {
+            width: 100px;
+            height: 100px;
+            border: 10px solid lightgray;
+            border-top: 10px solid blue; /* thick border on top */
+            border-radius: 50%;
+        }
+
+        /* Step 2: Animation */
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Step 3: Apply animation */
+        .loader {
+            animation: spin 1s linear infinite;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="loader"></div>
+
+</body>
+</html>
